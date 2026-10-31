@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Max Spare – All Bike Spares</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--text:#15171a;--muted:#5d636b;--accent:#e8590c;--accent-text:#fff;--line:#e4e4de;--dark:#15171a;--dark-text:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101214;--card:#1a1d21;--text:#f1f1ee;--muted:#9aa1a9;--line:#2a2e33;--dark:#000;}}
+:root[data-theme="dark"]{--bg:#101214;--card:#1a1d21;--text:#f1f1ee;--muted:#9aa1a9;--line:#2a2e33;--dark:#000}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-weight:800;font-size:1.3rem;letter-spacing:-.5px}
+.logo span{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);padding:12px 22px;border-radius:10px;font-weight:700;text-decoration:none}
+.btn.alt{background:transparent;color:var(--text);border:2px solid var(--line)}
+.hero{padding:48px 0 56px}
+.hero h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.1;margin:0 0 16px;letter-spacing:-1px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{font-size:1.1rem;color:var(--muted);max-width:520px;margin:0 0 26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+h2{font-size:1.6rem;margin:0 0 20px;letter-spacing:-.5px}
+section{padding:36px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card .ic{font-size:1.6rem}
+.card h3{margin:8px 0 4px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.93rem}
+.why li{margin-bottom:10px}
+.contact{background:var(--dark);color:var(--dark-text);border-radius:18px;padding:34px 24px;text-align:center;margin:20px 0 40px}
+.contact h2{margin-bottom:8px}
+.contact p{opacity:.8;margin:0 0 20px}
+.contact .num{display:block;font-size:2rem;font-weight:800;margin-bottom:20px;color:#fff;text-decoration:none}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 0 32px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">Max <span>Spare</span></div><a class="btn" href="tel:+919790411562">Call now</a></header>
+
+<div class="hero">
+<h1>Every bike spare, <em>one shop.</em></h1>
+<p>From brake pads to chains, tyres to headlights, find the right part for your bike at Max Spare.</p>
+<div class="cta"><a class="btn" href="tel:+919790411562">Call 9790411562</a><a class="btn alt" href="https://wa.me/919790411562">WhatsApp us</a></div>
+</div>
+
+<section>
+<h2>What we sell</h2>
+<div class="grid">
+<div class="card"><div class="ic">⚙️</div><h3>Engine Parts</h3><p>Pistons, gaskets, filters, spark plugs and more.</p></div>
+<div class="card"><div class="ic">🛑</div><h3>Brakes</h3><p>Brake pads, shoes, discs, levers and cables.</p></div>
+<div class="card"><div class="ic">🛞</div><h3>Tyres & Tubes</h3><p>Reliable tyres and tubes for daily riding.</p></div>
+<div class="card"><div class="ic">⛓️</div><h3>Chains & Sprockets</h3><p>Chain sets, sprockets and drive parts.</p></div>
+<div class="card"><div class="ic">🔋</div><h3>Electricals</h3><p>Batteries, bulbs, indicators and switches.</p></div>
+<div class="card"><div class="ic">🧩</div><h3>Fibre Parts</h3><p>Mudguards, side panels, fairings, tank covers and body parts.</p></div>
+<div class="card"><div class="ic">🏍️</div><h3>Accessories</h3><p>Mirrors, guards, grips, seat covers and more.</p></div>
+</div>
+</section>
+
+<section class="why">
+<h2>Why Max Spare</h2>
+<ul>
+<li><b>Wide range:</b> all the bike spares you need in one place.</li>
+<li><b>Right fit:</b> tell us your bike model and we'll find the correct part.</li>
+<li><b>Easy to reach:</b> just call or message, no hassle.</li>
+</ul>
+</section>
+
+<div class="contact">
+<h2>Need a part? Get in touch</h2>
+<p>Call or message with your bike model and the part you need.</p>
+<a class="num" href="tel:+919790411562">9790411562</a>
+<div class="cta" style="justify-content:center"><a class="btn" href="tel:+919790411562">Call now</a><a class="btn alt" style="color:#fff;border-color:#555" href="https://wa.me/919790411562">WhatsApp</a></div>
+</div>
+
+<footer>© Max Spare · All bike spares</footer>
+</div>
+</body>
+</html>
